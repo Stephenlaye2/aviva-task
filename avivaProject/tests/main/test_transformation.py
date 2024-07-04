@@ -1,7 +1,10 @@
 import unittest
 from collections import Counter
 import sys
-sys.path.append("src/main")
+import os
+
+cwd = os.getcwd()
+sys.path.append(f"{cwd}/src/main")
 from transformation import get_words
 
 
