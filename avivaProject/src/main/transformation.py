@@ -3,9 +3,11 @@ import pandas as pd
 from collections import Counter
 import re
 import uuid
+import os
 
+cwd = os.getcwd()
 
-with open('src/resources/input/input_data.json', 'r') as json_file:
+with open(f'{cwd}/src/resources/input/input_data.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 # Beautify the input format
@@ -51,7 +53,7 @@ def generate_records():
     # Use panda to create dataFrame and save in petitions_out.csv file
     df = pd.DataFrame(data)
     print(df)
-    df.to_csv('src/resources/output/petitions_output.csv')
+    df.to_csv(f'{cwd}/src/resources/output/petitions_output.csv')
 
 
 if __name__ == "__main__":
