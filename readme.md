@@ -11,6 +11,8 @@
 * The input is being read from ```src/resources/input/input_data.json```
 * The output is available in ```src/resources/output/petitions_output.csv```
 
+**Run Image**
+![alt text](avivaProject/src/resources/img/aviva-task-gitbash-run.png "output")
 
 ## Input Data 
 The input data is a JSON file containing a set of government petitions. For each petition, we have the label (the title of the petition), the abstract (the main text of the petition), and the number of signatures. 
