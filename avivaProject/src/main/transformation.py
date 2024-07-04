@@ -5,7 +5,7 @@ import re
 import uuid
 
 
-with open('src/resources/input_data.json', 'r') as json_file:
+with open('src/resources/input/input_data.json', 'r') as json_file:
     json_data = json.load(json_file)
 
 # Beautify the input format
