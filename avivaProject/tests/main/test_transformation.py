@@ -1,7 +1,7 @@
 import unittest
 from collections import Counter
 import sys
-sys.path.append("src")
+sys.path.append("src/main")
 from transformation import get_words
 
 

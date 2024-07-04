@@ -6,7 +6,8 @@
 * clone the code to your system
 * Make sure Python is installed. Python ```version 3.9.0``` is recommended, but any Python3 version should be fine.
 * If pandas module is not found, use pip to install pandas
-* open gitbash and run the code with python. for example  ```python c:/Users/steph/project/aviva-tasks/avivaProject/src/main/transformation.py```
+* open gitbash and run the code with python. For example  ```python c:/Users/steph/project/aviva-tasks/avivaProject/src/main/transformation.py```
+* To run the test, you need to do same thing. For example ```c:/Users/steph/project/aviva-tasks/avivaProject/tests/main/test_transformation.py```
 * The input is being read from ```src/resources/input/input_data.json```
 * The output is available in ```src/resources/output/petitions_output.csv```
 
